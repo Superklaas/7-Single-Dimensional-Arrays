@@ -6,10 +6,10 @@ import java.util.Random;
 public class DuplicateFinder {
     public static void main(String[] args) {
         int lengthArray = 10;
-        int[] array = enterNumbersArray(lengthArray);
-        printArray(array);
-        int[] allDuplicates = findAllDuplicates(array); //find duplicates in array and put them in a separate array
-        printDistinctDuplicates(allDuplicates);
+        int[] array = enterNumbersArray(lengthArray); // Create random array
+        printArray(array); // Print random array
+        int[] allDuplicates = findAllDuplicates(array); // Find duplicates in array and put them in a new array
+        printDistinctDuplicates(allDuplicates); // Print the distinct duplicates in the newly created duplicates array
     }
 
     public static int[] enterNumbersArray(int lengthArray) {
